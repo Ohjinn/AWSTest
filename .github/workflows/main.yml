@@ -1,8 +1,8 @@
-name: TIL_project
+name: AWSTest
 on:
   push:
     branches:
-      - hojin
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
