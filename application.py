@@ -44,7 +44,6 @@ def autocraw():
     bCrawling.titlecrawling()
 
 
-
 @scheduler.task('interval', id='autoPiccraw', seconds=3600, misfire_grace_time=900)
 def autopiccraw():
     bCrawling.getpic()
